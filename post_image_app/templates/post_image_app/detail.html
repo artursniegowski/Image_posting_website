@@ -1,0 +1,13 @@
+{% extends 'post_image_app/base.html' %}
+
+{% block title %}Full image view{% endblock  %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-sm-10 offset-sm-1 py-5">
+            <p class="fst-italic">{{ post.post_time | date}}</p>    
+            <p class="fw-bolder">{{ post.text }}</p> 
+            <img src="{{ post.image.url }}" class="img-fluid rounded" alt="big-image">
+        </div>
+    </div>
+{% endblock  %}

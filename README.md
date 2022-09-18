@@ -8,6 +8,7 @@ Created with Django 4.1, sorl-thumbnail, Python 3.10.6 and Bootstrap 5.
 
 https://www.djangoproject.com/
 
+
 https://github.com/jazzband/sorl-thumbnail
 
 
